@@ -1,3 +1,3 @@
 ## EduVault
 
-The contract address is - 0x28B8B9812aA558e94a9B2971529c02BD589FeAfD 
+The contract address is - 0xf4D756E38CB255a7124eFe2c2837cE29ad0E828D 

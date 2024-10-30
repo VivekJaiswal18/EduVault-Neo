@@ -24,8 +24,10 @@ export default function NFTClaim(){
                 transaction={()=>claimTo({
                     contract: getContract({
                         client: client,
-                        chain: defineChain(12227332),
-                        address: "0x7F712dd4aDC8B17C52b812F3c8b6804CE5504630"
+                        // chain: defineChain(12227332),
+                        // address: "0x7F712dd4aDC8B17C52b812F3c8b6804CE5504630"
+                        chain: defineChain(1320),
+                        address: "0xf4D756E38CB255a7124eFe2c2837cE29ad0E828D"
                     }),
                     to: account?.address || "",
                     quantity: 1n,

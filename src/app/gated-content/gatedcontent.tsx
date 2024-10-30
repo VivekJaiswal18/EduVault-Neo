@@ -56,7 +56,7 @@ export const GatedContent = () => {
       </div>
 
 
-      <div className="grid font-montserrat rid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto px-8">
+      <div className="grid font-montserrat cursor-pointer rid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto px-8">
         {cards.map((card, index) => (
           <div key={index} className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4">
             <img

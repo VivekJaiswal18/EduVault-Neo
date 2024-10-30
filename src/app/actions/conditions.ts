@@ -9,36 +9,16 @@ export async function hasAccess(address: string): Promise<boolean> {
   // return await example_hasSomeErc20Tokens(address);
 }
 
-//
-//
-//
-//
-//
-//
-//
-//
-/**
- * Check out some of the examples below
- * The use cases are not limited to token-balance, you can basically do anything you want.
- *
- * For example: You can leverage some third-party api to check for the "age" of the wallet and
- * only allow wallet older than 2 years to access.
- *
- * Or you can allow only wallets that have interacted with Uniswap to access the page!
- *
- * The sky is the limit.
- */
+
 
 async function example_hasSomeErc721Tokens(address: string) {
   const requiredQuantity = 1n;
 
   const erc721Contract = getContract({
-    // replace with your own NFT contract address
-    address: "0x7F712dd4aDC8B17C52b812F3c8b6804CE5504630", //neochain
+    // address: "0x7F712dd4aDC8B17C52b812F3c8b6804CE5504630", //neochain
+    address: "0xf4D756E38CB255a7124eFe2c2837cE29ad0E828D", //aiachain
 
-    // replace with the chain that your nft contract was deployed on
-    // if that chain isn't included in our default list, use `defineChain`
-    chain: defineChain(12227332),
+    chain: defineChain(1320),
 
     client: client,
   });
