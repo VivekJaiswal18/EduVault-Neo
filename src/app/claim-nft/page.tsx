@@ -15,7 +15,7 @@ export default function NFTClaim(){
         <div className="min-h-screen font-montserrat flex flex-col items-center justify-center">
         <div className="min-h-3.5 font-montserrat flex flex-col w-80 border rounded-lg items-center justify-center">
             <div className="p-4 flex items-center justify-center flex-col">
-                <p className="font-bold text-3xl mb-6">Claim NFT</p>
+                <p className="font-bold text-3xl mb-6">Buy NFT</p>
                 <p className="text-white font-semibold">You can claim NFT Here</p>
                 <div className="my-6 mb-4">
                     <LoginButton/>
